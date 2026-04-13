@@ -136,6 +136,22 @@ hr {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background-image:url(../images/reasons-image.webp) nor-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benifits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
