@@ -111,6 +111,31 @@ main {
     color: #3a3a3a;
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benifits-physical>div,#benifits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benifits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
