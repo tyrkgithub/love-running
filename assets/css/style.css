@@ -186,11 +186,54 @@ hr {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
-}
+
+    #benifits-physical,#benifits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benifits-physical>div,#benifits-mental>div {
+        width: 75%;
+     }
+
+    #benifits-mental>div {
+    text-align: end;
+    align-self: flex-end;
+    }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+
+
 }
+
+@media screen and (min-width: 1200px) {
+    #benifits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benifits >div {
+        flex: 1;
+    }
+
+    #benifits-omage {
+        order: 0;
+    }
+
+    #benifits-mental{
+        order: 1;
+    }
+
+    #benifits-metal > div {
+        align-self: flex-start;
+    }
+
+    #benifits-physical > {
+        align-self: flex-end;
+    }
+   }
